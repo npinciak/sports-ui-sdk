@@ -1,0 +1,30 @@
+{
+  "skipLibCheck": true,
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "noUncheckedIndexedAccess": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2021", //We can't go higher until we get to typescript 5+ https://github.com/microsoft/TypeScript/issues/52004
+    "module": "ES2020",
+    "lib": ["ES2022", "dom"],
+    "useDefineForClassFields": false,
+    "paths": {
+      "@/*": ["src/lib/*"],
+      "@espn/*": ["src/lib/espn/*"]
+    }
+  }
+}

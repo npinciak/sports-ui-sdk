@@ -1,8 +1,8 @@
 {
   "name": "sports-ui-sdk",
-  "version": "1.0.0",
-  "main": "./src/public-api.ts",
-  "module": "./dist/out-tsc/public-api.js",
+  "version": "1.0.1",
+  "main": "./src/public-api.js",
+  "module": "./src/public-api.js",
   "scripts": {
     "build": "tsc"
   },

@@ -8,17 +8,9 @@
   },
   "exports": {
     ".": {
-      "types": "./index.d.ts",
-      "default": "./index.js"
+      "types": "./src/public-api.d.ts",
+      "default": "./src/public-api.js"
     },
-    "./espn-client": {
-      "types": "./src/lib/espn-client/index.d.ts",
-      "default": "./src/lib/espn-client/index.js"
-    },
-    "./espn": {
-      "types": "./src/lib/espn/index.d.ts",
-      "default": "./src/lib/espn/index.js"
-    }
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",

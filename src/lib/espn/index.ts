@@ -1,5 +1,3 @@
-import { LegacyEspnFastcastClient } from './models/espn-fastcast.model';
-
 export * from './baseball/lineup';
 export * from './baseball/position';
 export * from './baseball/stadium';
@@ -16,4 +14,4 @@ export * as EspnFootballClient from './models/espn-client-football.model';
 export * from './models/espn-client.const';
 export * as EspnClient from './models/espn-client.model';
 
-export import EspnFastcastClient = LegacyEspnFastcastClient;
+export * as EspnFastcastClient from './models/espn-fastcast.model';

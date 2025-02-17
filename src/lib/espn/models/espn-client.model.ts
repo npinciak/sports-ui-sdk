@@ -155,7 +155,7 @@ export type PlayerNewsFeedEntity = Pick<IdAttributesNumber, 'id'> & {
       href: string;
     };
     web?: {
-      hred: string;
+      href: string;
     };
   };
 };
